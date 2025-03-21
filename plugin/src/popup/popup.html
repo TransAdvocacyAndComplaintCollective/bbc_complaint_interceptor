@@ -2,43 +2,44 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>My Extension Popup</title>
+  <title>TACC MCC Popup</title>
   <link href="/popup/popup.css" rel="stylesheet">
 </head>
 <body>
-  <div id="container">
-    <!-- Help Link pointing to local help/help.html -->
-    <a id="help-link" href="help/help.html" target="_blank">Help</a>
+<div id="container">
+  <!-- Help Link pointing to local help/help.html -->
+  <a id="help-link" href="help/help.html" target="_blank">Help</a>
 
-    <h2>Extension Dashboard</h2>
-    <div id="status">
-      <p>Status: <span id="send-status">Idle</span></p>
-    </div>
-
-    <!-- Button and container for "Check Problematic Stories" -->
-    <button id="check-stories-btn">Check Problematic Stories</button>
-    <div id="stories-list"></div>
-
-    <hr>
-
-    <!-- Complaints Table -->
-    <h3>Stored Complaints</h3>
-    <table id="complaintsTable">
-      <thead>
-        <tr>
-          <th style="width: 32%;">Subject</th>
-          <th style="width: 38%;">TACC Record ID</th>
-          <th style="width: 22%;">Date</th>
-          <th style="width: 7%;">Action</th>
-        </tr>
-      </thead>
-      <tbody>
-        <!-- Dynamically populated by popup.js -->
-      </tbody>
-    </table>
+  <h2>MCC Dashboard</h2>
+  <div id="status">
+    <p>Status: <span id="send-status">Idle</span></p>
   </div>
-  <sub id="version">Version 0.1.0 Beta</sub>
 
-  <script src="popup.js"></script>
+  <!-- Button and container for "Check Problematic Stories" -->
+  <button id="check-stories-btn">Check Problematic Stories</button>
+  <div id="stories-list"></div>
+
+  <hr>
+
+  <!-- Complaints Table -->
+  <h3>Stored Complaints</h3>
+  <table id="complaintsTable">
+    <thead>
+    <tr>
+      <th style="width: 32%;">Subject</th>
+      <th style="width: 38%;">TACC Complaint Number</th>
+      <th style="width: 22%;">Date</th>
+      <th style="width: 7%;">Action</th>
+    </tr>
+    </thead>
+    <tbody>
+    <!-- Dynamically populated by popup.js -->
+    </tbody>
+  </table>
+</div>
+<sub id="version">Version 1.0</sub>
+
+<script src="popup.js"></script>
 </body>
 </html>
+

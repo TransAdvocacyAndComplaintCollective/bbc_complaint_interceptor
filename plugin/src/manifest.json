@@ -13,7 +13,6 @@
   },
   "action": {
     "default_popup": "popup/popup.html",
-    "default_area": "navbar",
     "default_icon": {
       "16": "icons/image-16.png",
       "48": "icons/image-48.png"
