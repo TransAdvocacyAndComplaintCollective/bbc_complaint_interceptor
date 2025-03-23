@@ -3,9 +3,8 @@
   "version": "1.0.0",
   "manifest_version": 3,
   "description": "TACC media complaints collector requests from British news sites and forwards the data to TACC.",
-  "permissions": ["activeTab", "storage", "notifications"],
+  "permissions": ["activeTab", "storage"],
   "host_permissions": [
-    "https://tackpckfdc.execute-api.eu-west-1.amazonaws.com/live/sendmessage",
     "https://www.bbc.co.uk/contact/complaints/make-a-complaint/*"
   ],
   "background": {
